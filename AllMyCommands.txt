@@ -1,0 +1,17 @@
+
+git init
+git status
+git add .
+git commit -m "add all files "
+git rm -f Git_Branching.txt
+git reset --hard HEAD
+git remote add origin  https://github.com/sohailkhattab/Test.git
+git push origin master
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m "add all files"
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m "add all files"
